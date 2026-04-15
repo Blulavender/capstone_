@@ -227,6 +227,27 @@ p {
     flex-wrap: wrap;          /* Keeps it looking good on mobile */
     margin: 20px auto;
 }
+
+.twelfth-content {
+    display: flex;
+    flex-direction: row;      /* Changes from stack to side-by-side */
+    justify-content: center;  /* Centers them in the middle of the page */
+    align-items: flex-start;  /* Keeps the tops of the boxes lined up */
+    gap: 20px;                /* Adds space between the projects */
+    width: 100%;
+    flex-wrap: wrap;          /* Keeps it looking good on mobile */
+    margin: 20px auto;
+}
+
+.project-item img {
+    width: 550px;       /* Matches your .project-video width */
+    height: 450px;      /* Set a fixed height so the grid looks even */
+    object-fit: cover;  /* Prevents the image from looking squished */
+    border: 4px solid white;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: block;
+}
 /*footer {
   background-color: #72a5ec;
   width: 100%;
